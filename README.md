@@ -1,8 +1,8 @@
 # travis-ci-tools
 
-see http://docs.travis-ci.com/user/environment-variables/#Encrypted-Variables
+For details see the [Travis CI docs](http://docs.travis-ci.com/user/environment-variables/#Encrypted-Variables)
 
-example:
+Example:
 
     docker run --rm -v /path/to/repo:/proj gesellix/travis encrypt MY_SECRET_ENV=super_secret --add env.global
 
