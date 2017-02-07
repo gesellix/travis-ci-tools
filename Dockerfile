@@ -1,5 +1,5 @@
-FROM ruby:2.3.1-alpine
-MAINTAINER Tobias Gesellchen <tobias@gesellix.de> (@gesellix)
+FROM ruby:2.4.0-alpine
+#MAINTAINER Tobias Gesellchen <tobias@gesellix.de> (@gesellix)
 
 RUN apk add -U --virtual build-deps build-base \
     && gem install travis \
